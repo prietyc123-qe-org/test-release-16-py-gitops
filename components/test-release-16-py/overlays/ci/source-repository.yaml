@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-release-16-py-repository
+spec:
+  url: https://github.com/prietyc123-qe-org/test-release-16-py
